@@ -1,44 +1,40 @@
-<img width="275" height="50" alt="image" src="https://github.com/user-attachments/assets/a874bbda-91c4-43c8-b769-ee220d5f7d13" />
+<img width="278" height="41" alt="image" src="https://github.com/user-attachments/assets/33093d08-16ff-4695-97f9-0882e1bb3893" />
 
-Saya menggunakan ini untuk menyimpan daftar nama mahasiswa & membaca input dari user, misalnya nama mahasiswa atau pilihan menu.
+Saya menggunakan ini untuk menyimpan daftar Wisata Kalimantan Timur & membaca input dari user, misalnya nama wisata atau pilihan menu.
 
-<img width="634" height="145" alt="image" src="https://github.com/user-attachments/assets/95662a7e-2e92-4689-87ee-50f67e50a586" />
+<img width="614" height="120" alt="image" src="https://github.com/user-attachments/assets/f90aed6e-8f20-4d83-bf2c-224cc8ccc9e9" />
 
-ini adalah pondasi awal dari program CRUD daftar mahasiswa.
+ini adalah pondasi awal dari program CRUD daftar wisata.
 
-<img width="714" height="225" alt="image" src="https://github.com/user-attachments/assets/7b787f91-c96d-4170-81b9-700b736ca229" />
+<img width="779" height="228" alt="image" src="https://github.com/user-attachments/assets/ef88de20-ffff-44b9-b139-55e7249cb5e1" />
 
-Menampilkan menu utama CRUD mahasiswa.
+Menampilkan menu utama CRUD Daftar Wisata Kaltim.
 Membaca pilihan user dengan Scanner.
 Menyimpan pilihan tersebut di variabel pilihan agar bisa dipakai dalam switch-case untuk menentukan aksi berikutnya (tambah, lihat, update, hapus, keluar).
 
-<img width="636" height="162" alt="image" src="https://github.com/user-attachments/assets/be877c6f-e3a3-4dbb-b8de-0c6edb87d895" />
-<img width="732" height="229" alt="image" src="https://github.com/user-attachments/assets/a1ef7d13-ee76-4fd4-8a6f-f9fd23e3bd87" />
-<img width="736" height="472" alt="image" src="https://github.com/user-attachments/assets/ac502291-8b48-4f68-abe5-58854d94f67a" />
-<img width="798" height="430" alt="image" src="https://github.com/user-attachments/assets/94f7a850-8699-4fcf-8217-6c01694d237d" />
-<img width="818" height="264" alt="image" src="https://github.com/user-attachments/assets/44245f4f-d588-4e68-a972-6e0d4239b5c3" />
+<img width="740" height="412" alt="image" src="https://github.com/user-attachments/assets/281ffc04-a161-4cf8-8677-aac45b00963f" />
+<img width="709" height="482" alt="image" src="https://github.com/user-attachments/assets/e11943f2-5e52-4bfd-9753-4590a9392ec8" />
+<img width="902" height="692" alt="image" src="https://github.com/user-attachments/assets/e9afca05-6ab5-4ecd-9b76-930750926f60" />
 
-case 1: Tambah Mahasiswa
-Meminta input nama mahasiswa baru.
-Menambahkan nama tersebut ke dalam ArrayList daftarMahasiswa.
 
-case 2: Lihat Daftar Mahasiswa
-Menampilkan semua nama mahasiswa yang sudah ada di ArrayList.
+case 1: Tambah Wisata
+Meminta input list Wisata Baru.
+Menambahkan list tersebut ke dalam ArrayList daftarWisata.
+
+case 2: Lihat Daftar Wisata
+Menampilkan semua list Wisata yang sudah ada di ArrayList.
 Jika list kosong, tampilkan pesan "Belum ada data".
 
-case 3: Update Data Mahasiswa
-Menampilkan daftar mahasiswa dengan nomor indeks.
-User memilih nomor mahasiswa yang ingin diubah.
+case 3: Update Data Wisata
+Menampilkan daftar Wisata dengan nomor indeks.
+User memilih nomor Wisata yang ingin diubah.
 Meminta input nama baru, lalu mengganti data lama dengan data baru.
 
-case 4: Hapus Mahasiswa
-Menampilkan daftar mahasiswa dengan nomor indeks.
-User memilih nomor mahasiswa yang ingin dihapus.
+case 4: Hapus Wisata
+Menampilkan daftar Wisata dengan nomor indeks.
+User memilih nomor wisata yang ingin dihapus.
 Menghapus data tersebut dari ArrayList.
 
 case 5: Keluar
 Menghentikan perulangan do-while.
 Program berhenti dengan pesan keluar.
-
-
-
